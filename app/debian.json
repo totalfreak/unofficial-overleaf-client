@@ -1,0 +1,13 @@
+{
+  "dest": "release-builds/installers",
+  "options": {
+    "ProductName": "Unofficial overleaf client",
+    "icon": "assets/icons/icon.png"
+  },
+  "categories": [
+    "Productivity"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}
